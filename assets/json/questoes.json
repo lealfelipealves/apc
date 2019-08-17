@@ -1,0 +1,529 @@
+{
+  "questoes": [
+    {
+      "questao": "Eu sou...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Idealista, criativo e visionário"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Divertido, espiritual e benéfico"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Confiável, meticuloso e previsível"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Focado, determinado e persistente"
+        }
+      ]
+    },
+    {
+      "questao": "Eu gosto de...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Explorar novas rotas"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Conversar com os passageiros"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Planejar a viagem"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Ser piloto"
+        }
+      ]
+    },
+    {
+      "questao": "Se você quiser se dar bem comigo...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Me dê liberdade"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Seja amigável, carinhoso e compreensivo"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Me deixe saber sua expectativa"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Lidere, siga ou saia do caminho"
+        }
+      ]
+    },
+    {
+      "questao": "Para conseguir obter bons resultados é preciso...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Ter incertezas"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Diversão e celebração"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Controlar o essencial"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Planejar e obter recursos"
+        }
+      ]
+    },
+    {
+      "questao": "Eu me divirto quando...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Tenho novidades"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Estou com os outros"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Determino as regras"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Estou me exercitando"
+        }
+      ]
+    },
+    {
+      "questao": "Eu penso que...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "É bom ser manso, mas andar com um porrete"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Unidos venceremos, divididos perderemos"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Um homem prevenido vale por dois"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "O ataque é melhor que a defesa"
+        }
+      ]
+    },
+    {
+      "questao": "Minha preocupação é...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Gerar a ideia global"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Fazer com que as pessoas gostem"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Fazer com que funcione"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Fazer com que aconteça"
+        }
+      ]
+    },
+    {
+      "questao": "Eu prefiro...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Questaos a respostas"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Que todos tenham a chance de ser ouvidos"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Ter todos os detalhes"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Vantagens a meu favor"
+        }
+      ]
+    },
+    {
+      "questao": "Eu gosto de...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Tornar as pessoas confortáveis"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Construir memórias"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Fazer sentido"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Fazer progresso"
+        }
+      ]
+    },
+    {
+      "questao": "Eu gosto de chegar...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Em outro lugar"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Junto"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Na hora"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Na frente"
+        }
+      ]
+    },
+    {
+      "questao": "Um ótimo dia para mim é quando...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Desfruto de coisas novas e estimulantes"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Me divirto com meus amigos"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Tudo segue conforme planejado"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Consigo fazer muitas coisas"
+        }
+      ]
+    },
+    {
+      "questao": "Eu vejo a morte como...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Uma grande aventura misteriosa"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Oportunidade de rever os falecidos"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Um modo de receber recompensas"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Algo que sempre chega muito cedo"
+        }
+      ]
+    },
+    {
+      "questao": "Minha filosofia de vida é...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Para ganhar, é necessário inventar novas regras"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Para eu ganhar, ninguém precisa perder"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Para ganhar é preciso seguir as regras"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Há ganhadores e perdedores, e eu acredito ser um ganhador"
+        }
+      ]
+    },
+    {
+      "questao": "Eu sempre gostei de...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Explorar"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Realizar uma abordagem natural"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Evitar surpresas"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Focalizar a meta"
+        }
+      ]
+    },
+    {
+      "questao": "Eu gosto de mudanças se...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Me der mais liberdade e variedade"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "For divertido e puder ser compartilhado"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Melhorar ou me der mais controle"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Me der uma vantagem competitiva"
+        }
+      ]
+    },
+    {
+      "questao": "Não existe nada de errado em...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Mudar de ideia"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Colocar os outros na frente"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Ser consistente"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Se colocar na frente"
+        }
+      ]
+    },
+    {
+      "questao": "Eu gosto de buscar conselhos de...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Lugares, os mais estranhos"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Anciões e conselheiros"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Autoridades no assunto"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Pessoas bem-sucedidas"
+        }
+      ]
+    },
+    {
+      "questao": "Meu lema é...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Fazer o que precisa ser feito"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Fazer junto com o grupo"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Fazer bem feito"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Simplesmente fazer"
+        }
+      ]
+    },
+    {
+      "questao": "Eu gosto de...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Complexidade, mesmo se confuso"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Calor humano e animação"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Ordem e sistematização"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Coisas claras e simples"
+        }
+      ]
+    },
+    {
+      "questao": "Tempo para mim é...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Irrelevante"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Um grande ciclo"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Uma flecha que leva ao inevitável"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Algo que detesto desperdiçar"
+        }
+      ]
+    },
+    {
+      "questao": "Se eu fosse bilionário...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Faria o que desse na cabeça"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Faria doações para entidades"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Criaria uma poupança avantajada"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Exibiria bastante com algumas pessoas"
+        }
+      ]
+    },
+    {
+      "questao": "Eu acredito que...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Bastam um navio e uma estrela para navegar"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "A jornada é mais importante que o destino"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "Um centavo economizado é um centavo ganho"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "O destino é mais importante que a jornada"
+        }
+      ]
+    },
+    {
+      "questao": "Eu acredito também que...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Um sorriso ou uma careta é o mesmo para quem é cego"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "O que vai, volta"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "De grão em grão a galinha enche o papo"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Aquele que hesita está perdido"
+        }
+      ]
+    },
+    {
+      "questao": "Eu acredito ainda que...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "A autoridade deve ser desafiada"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "O coletivo é mais importante do que o individual"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "É melhor prudência do que arrependimento"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Ganhar é fundamental"
+        }
+      ]
+    },
+    {
+      "questao": "Eu penso que...",
+      "alternativas": [
+        {
+          "perfil": "i",
+          "alternativa": "Não é fácil ficar encurralado"
+        },
+        {
+          "perfil": "c",
+          "alternativa": "Duas cabeças pensam melhor que do que uma"
+        },
+        {
+          "perfil": "o",
+          "alternativa": "É preferível olhar, antes de pular"
+        },
+        {
+          "perfil": "a",
+          "alternativa": "Se você não tem condições de competir, não compita"
+        }
+      ]
+    }
+  ]
+}
