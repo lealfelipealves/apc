@@ -13,23 +13,23 @@
           href="/questionario"
           class="button--yellow">Iniciar</a>
       </div>
+      <copy/>
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-
+// import AppLogo from '~/components/AppLogo.vue'
+import Copy from '~/components/Copy'
 export default {
   components: {
-    AppLogo
+    Copy
+    //AppLogo
   }
 }
 </script>
 
 <style>
-
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 
 .container {
   min-height: 100vh;
@@ -41,7 +41,7 @@ export default {
 }
 
 .title {
-  font-family: Dosis,Arial,Helvetica,Sans-serif;
+  font-family: 'Dosis',Arial,Helvetica,Sans-serif;
   display: block;
   font-weight: 300;
   font-size: 4.5rem;
@@ -50,7 +50,7 @@ export default {
 }
 
 .subtitle {
-  font-family: Dosis,Arial,Helvetica,Sans-serif;
+  font-family: 'Dosis',Arial,Helvetica,Sans-serif;
   font-weight: 300;
   font-size: 1.75rem;
   color: #888;

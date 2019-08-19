@@ -2,19 +2,20 @@
   <section class="container">
     <div>
       <quiz :questoes="questoes" />
+      <copy />
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
 import Quiz from '~/components/Quiz.vue'
+import Copy from '~/components/Copy.vue'
 import data from '~/assets/json/questoes.json'
 
 export default {
   components: {
-    AppLogo,
-    Quiz
+    Quiz,
+    Copy
   },
   data() {
     return {
