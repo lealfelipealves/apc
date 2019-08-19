@@ -1,26 +1,28 @@
 <template>
   <div>
-    <table>
+    <table v-show="questionIndex === questionsShuffle.length">
       <tr>
-        <th>Tubarão</th>
-        <th>Lobo</th>
         <th>Águia</th>
         <th>Gato</th>
+        <th>Lobo</th>
+        <th>Tubarão</th>
       </tr>
       <tr>
-        <td>{{ respostas.i }}</td>
-        <td>{{ respostas.c }}</td>
-        <td>{{ respostas.o }}</td>
-        <td>{{ respostas.a }}</td>
+        <td>{{ response.i * 4 }}%</td>
+        <td>{{ response.c * 4 }}%</td>
+        <td>{{ response.o * 4 }}%</td>
+        <td>{{ response.a * 4 }}%</td>
       </tr>
     </table>
-    <div v-for="(item, index) in questoesEmbaralhadas" :key="index">
-      <h1>{{ item.questao }}</h1>
-      <ul>
-        <li v-for="(item2, index) in item.alternativas" :key="index">
-          <a class="alternativa" href @click.prevent="mark(item2.perfil)">{{ item2.alternativa }}</a>
-        </li>
-      </ul>
+    <div v-for="(question, index) in questionsShuffle" :key="index">
+      <div v-show="index === questionIndex">
+        <h2>{{ question.questao }}</h2>
+        <ul>
+          <li v-for="(alternative, index2) in question.alternativas" :key="index2">
+            <a @click.prevent="mark(alternative.perfil)">{{ alternative.alternativa }}</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -30,8 +32,9 @@ export default {
   props: ["questoes"],
   data() {
     return {
-      questoesEmbaralhadas: [],
-      respostas: {
+      questionsShuffle: [],
+      questionIndex: 0,
+      response: {
         i: 0,
         c: 0,
         o: 0,
@@ -40,9 +43,35 @@ export default {
     };
   },
   mounted() {
-    this.questoesEmbaralhadas = this.shuffleArray(this.questoes);
+    this.questionsShuffle = this.shuffleArray(this.questoes);
+    this.questionsShuffle.forEach((questoes) => {
+      this.shuffleArray(questoes.alternativas);
+    }); 
   },
   methods: {
+    prev() {
+      this.questionIndex--;
+    },
+    next() {
+      this.questionIndex++;
+    },
+    mark(perfil) {
+      switch (perfil) {
+        case "i":
+          this.response.i++;
+          break;
+        case "c":
+          this.response.c++;
+          break;
+        case "o":
+          this.response.o++;
+          break;
+        case "a":
+          this.response.a++;
+          break;
+      }
+      this.next();
+    },
     shuffleArray(array) {
       var counter = array.length,
         temp,
@@ -57,26 +86,11 @@ export default {
         array[index] = temp;
       }
       return array;
-    },
-    mark(perfil) {
-      switch (perfil) {
-        case "i":
-          this.respostas.i++;
-          break;
-        case "c":
-          this.respostas.c++;
-          break;
-        case "o":
-          this.respostas.o++;
-          break;
-        case "a":
-          this.respostas.a++;
-          break;
-      }
     }
   }
 };
 </script>
 
 <style>
+
 </style>

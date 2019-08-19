@@ -32,16 +32,8 @@ export default {
   },
   data() {
     return {
-      questoes: [],
+      questoes: data.questoes
     };
-  },
-  mounted() {
-    this.loadQuestoes();
-  },
-  methods: {
-    loadQuestoes() {
-      this.questoes = data.questoes;
-    }
   }
 }
 </script>
