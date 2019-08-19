@@ -1,22 +1,17 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
+      <img src="~/assets/img/rentcars-com.svg">
       <h1 class="title">
-        blog-with-vuejs
+        Avaliação de preferência cerebral
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        Em cada uma das 25 questões a seguir, escolha uma das alternativa.
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+          href="/questionario"
+          class="button--yellow">Iniciar</a>
       </div>
     </div>
   </section>
@@ -33,28 +28,32 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #f7f7f7;
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: Dosis,Arial,Helvetica,Sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  font-size: 4.5rem;
+  color: #333;
+  margin-bottom: 1rem;
 }
 
 .subtitle {
+  font-family: Dosis,Arial,Helvetica,Sans-serif;
   font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
+  font-size: 1.75rem;
+  color: #888;
   padding-bottom: 15px;
 }
 

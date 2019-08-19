@@ -1,6 +1,19 @@
 <template>
   <div>
-    <table v-show="questionIndex === questionsShuffle.length">
+    
+    <div v-for="(question, index) in questionsShuffle" :key="index">
+      <div v-show="index === questionIndex">
+        <h3 v-show="questionIndex !== questionsShuffle.length">{{questionIndex + 1}} / {{ questionsShuffle.length}}</h3>
+        <h2>{{ question.questao }}</h2>
+        <ul>
+          <li class="notSelectable" v-for="(alternative, index2) in question.alternativas" :key="index2"  @click.prevent="mark(alternative.perfil)">
+            {{ alternative.alternativa }}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  <table v-show="questionIndex === questionsShuffle.length">
       <tr>
         <th>Águia</th>
         <th>Gato</th>
@@ -14,16 +27,6 @@
         <td>{{ response.a * 4 }}%</td>
       </tr>
     </table>
-    <div v-for="(question, index) in questionsShuffle" :key="index">
-      <div v-show="index === questionIndex">
-        <h2>{{ question.questao }}</h2>
-        <ul>
-          <li v-for="(alternative, index2) in question.alternativas" :key="index2">
-            <a @click.prevent="mark(alternative.perfil)">{{ alternative.alternativa }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -92,5 +95,33 @@ export default {
 </script>
 
 <style>
+ul {
+  list-style: none;
+  padding: 0;
+}
 
+li {
+  background-color: #fff;
+  border: 2px solid #e8ebed;
+  display: block;
+  padding: 15px 15px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  margin-top:1rem;
+  cursor: pointer;
+}
+
+li:hover {
+  border: 2px solid #fc3;
+}
+
+.notSelectable {
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+    /* cursor: default; */
+}
 </style>

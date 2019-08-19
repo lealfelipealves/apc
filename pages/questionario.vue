@@ -1,21 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        Avaliação de preferência cerebral
-      </h1>
-      <h2 class="subtitle">
-        Em cada uma das 25 questões a seguir, escolha uma alternativa e marque-a no espaço correspondente.
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Iniciar</a>
-      </div>
-
       <quiz :questoes="questoes" />
-
     </div>
   </section>
 </template>
@@ -45,6 +31,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #f8f8f8;
 }
 
 .title {
