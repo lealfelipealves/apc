@@ -1,7 +1,6 @@
 <template>
   <section class="container">
     <div>
-      <img src="~/assets/img/rentcars-com.svg">
       <h1 class="title">
         Avaliação de preferência cerebral
       </h1>
